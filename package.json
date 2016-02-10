@@ -1,10 +1,10 @@
 {
   "name": "winebox",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A web application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/WineboxIO/winebox/issues"
   },
-  "homepage": "https://github.com/WineboxIO/winebox#readme"
+  "homepage": "https://github.com/WineboxIO/winebox#readme",
+  "dependencies": {
+    "express": "4.13.4"
+  }
 }
