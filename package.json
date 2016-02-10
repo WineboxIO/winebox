@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/WineboxIO/winebox/issues"
   },
-  "homepage": "https://github.com/WineboxIO/winebox#readme"
+  "homepage": "https://github.com/WineboxIO/winebox#readme",
+  "dependencies": {
+    "express": "4.13.4"
+  }
 }
